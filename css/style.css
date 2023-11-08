@@ -1,0 +1,185 @@
+/*todos os estilos de parágrafo*/
+body{
+	background-color: black;
+}
+h2{
+	color: yellow;
+	font-family:Verdana;
+	font-size:larger;
+	text-transform:capitalize;
+	text-align:center;
+	/*capitalize: a primeira letra de cada palavra ficará maiúscula*/  
+} 
+
+.h2_maiusculo {
+	color: yellow;
+	font-family:Verdana;
+	font-size:xx-larger;
+	text-transform:uppercase; /*uppercase: TODAS AS LETRAS EM MAIUSCULO*/ 
+}
+                          
+p{
+	text-indent: 50px;
+	/*text-transform:lowercase; /*lowercase: todas minúsculas*/
+	color: white;
+	font-family:Tahoma;
+	font-size:medium;	
+}
+
+
+.p1{
+	color: darkgrey;
+	font-size:20px;
+	font-weight:700; /*negrito*/
+	font-family:Comic Sans Ms;
+	text-align:center;
+	text-decoration:overline underline;
+	text-transform:uppercase;  /*uppercase: todas maiusculas */
+}
+
+a:link{  					/* não visitado */
+	font-family:Verdana;
+	font-size:12px;
+	color:darkblue;
+	background-color: #B2FF99;
+	text-decoration:none;}
+a:visited{					/* visitado */
+	font-family:Verdana;
+	font-size:12px;
+	color:darkblue;
+	background-color: #FFFF85;
+	text-decoration:none;}
+a:hover{					/* mouse sobre o link */
+	font-family:Verdana;
+	font-size:12px;
+	color:darkgrey;
+	background-color:darkblue;
+	text-decoration:underline;
+	}
+a:active{					/*link ativo na tela*/
+	font-family:Verdana;
+	font-size:12px;
+	color:#0000FF;
+	background-color: #FF704D;
+	text-decoration:underline;
+	}
+
+
+ul{
+	color: white;
+	font-family:Tahoma;
+	font-size:medium;
+}
+
+
+
+.img1{      /*fotos dos alunos*/
+	border-radius:50%;
+	width:small;
+}
+.img2{      /*retangular, borda verde*/
+	border-style:2;
+	border-color:green; 
+	width:medium;
+}
+.img3{
+	width:50px;
+	position:absolute;
+	top: 27%;
+	left:20%;
+	transform:translate(-50%, -50%);
+	border-radius: 50%;
+}
+
+.img4{
+	width:50px;
+	position:absolute;
+	top: 27%;
+	left:80%;
+	transform:translate(-50%, -50%);
+	border-radius: 50%;
+}
+
+/* QUANDO FOR USAR 'ID' PRECISA DE UM JOGO DA VELHA*/
+/* */
+#pr1{
+	text-align: center;
+	color:red;
+}
+
+#button1{
+	text-align: center;
+	color:red;
+}
+
+#button1{
+	text-align: center;
+	color:red;
+}
+#button1{
+	text-align: center;
+	color:red;
+}
+
+/*
+.titulo1{
+} 
+
+.tabela1{
+} 
+
+
+small
+medium
+large
+
+
+
+.button1{
+	formato de borda
+	grossura da borda
+	cor do botão
+	cor da letra do botão
+	
+}
+
+
+/*font-family:Comic Sans Ms;
+/*text-decoration: 
+		underline - linha embaixo; 
+		overline = linha em cima, none - sem linha*/
+.p2{
+	color: #211aff;
+	text-align:justify;
+	font-weight:1000; /*negrito*/
+	/*font-size:15px;*/
+	font-size:x-large;
+	text-decoration:none;
+}
+
+/*todos os estilos de imagem*/
+.img1{
+	border:2px;
+	border-color:green;
+	border-radius:50%
+}
+
+
+.img2{
+	border:3px;
+	border-color:black;
+	width: 50px;
+	height:50px;
+	text-align:armenian;
+}
+
+/*todos os estilos de links*/
+
+
+/*
+RGB - red  green  blue
+	rgb(250,248,248)
+	
+	256
+	0 a 255
+*/
